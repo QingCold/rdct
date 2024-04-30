@@ -20,8 +20,8 @@ async fn main() -> Result<(),Box<dyn std::error::Error>> {
         .await?;
     let serialized: t::Root = match from_str(&resp) {
         Ok(value) => value,
-        Err(err) => {
-            eprintln!("sorry, current word is unrecognisable !");
+        Err(_err) => {
+            eprintln!("sorry, current word is unrecognisable!");
             process::exit(1); 
         }
     };
