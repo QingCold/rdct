@@ -14,5 +14,5 @@ then you can find the binary file in
 ### Usage
 you only need to `rdct <your_word>` if you install this
 tool correctly.
-![]()
+![](https://github.com/QingCold/rdct/blob/dev/pics/output.gif)
 
